@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-24 04:46:49 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI0OyIwNDoyMzoyOCAiOzE3OTg="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI0OyIwNDo0Njo0OSAiOzI7MTkxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ts, tf" type="Real" array="False" size=""/>
+            <input variable="ts"/>
+            <assign variable="tf" expression="9/5*ts+32"/>
+            <output expression="tf" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

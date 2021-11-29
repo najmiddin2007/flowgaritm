@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-24 07:55:18 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTIxOyIwMzoyOTowNSAiOzE3OTU="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI0OyIwNzo1NToxOCAiOzI7MTkxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <declare name="d" type="Boolean" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="d" expression="(b^2)-(4*a*c)"/>
+            <output expression="d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

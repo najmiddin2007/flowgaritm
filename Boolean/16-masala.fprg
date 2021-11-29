@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-02 06:41:25 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE5OyIwNTo0MzoxOCAiOzE4MDQ="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTEwLTAyOyIwNjo0MToyNSAiOzM7MTg5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b, c" type="Boolean" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="b" expression="(a mod 2)==0"/>
+            <assign variable="c" expression="a&lt;9 or a&lt;100"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

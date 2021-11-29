@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-25 06:37:41 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI1OyIwNjoxOTozMSAiOzE4MDA="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI1OyIwNjozNzo0MSAiOzE7MTkwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, k, l" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="l" expression="0"/>
+            <for variable="k" start="1" end="n" direction="inc" step="1">
+                <assign variable="l" expression="l+(k^(n-k+1))"/>
+            </for>
+            <output expression="l" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

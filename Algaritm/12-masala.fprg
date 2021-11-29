@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-18 09:24:45 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOToyMjowOCAiOzE4MDM="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOToyNDo0NSAiOzE7MTkxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, p" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="c" expression="sqrt((a^2)+(b^2))"/>
+            <assign variable="p" expression="a+b+c"/>
+            <output expression="c" newline="True"/>
+            <output expression="p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

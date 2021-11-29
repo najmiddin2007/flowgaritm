@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-25 03:31:30 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI1OyIwMToxNjozNCAiOzE3OTU="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI1OyIwMzozMTozMCAiOzI7MTg5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="(a&gt;b)and (b&gt;c) and (c&gt;b)and (b&gt;a or&#13;&#10;b&gt;a&gt;c and c&gt;a&gt;b or&#13;&#10;c&gt;b&gt;a and a&gt;b&gt;c">
+                <then>
+                    <output expression="a*2" newline="True"/>
+                    <output expression="b*2" newline="True"/>
+                    <output expression="c*2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="a*(-1)" newline="True"/>
+                    <output expression="b*(-1)" newline="True"/>
+                    <output expression="c*(-1)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

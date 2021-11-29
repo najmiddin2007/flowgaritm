@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-25 04:14:13 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI1OyIwMTo0OTozMCAiOzE3OTc="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI1OyIwNDoxNDoxMyAiOzI7MTkwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, a, b" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="b" expression="0"/>
+            <for variable="a" start="n" end="2*n" direction="inc" step="1">
+                <assign variable="b" expression="b+(a^3)"/>
+            </for>
+            <output expression="b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

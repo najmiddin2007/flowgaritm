@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-18 09:37:18 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOTozMToxNiAiOzE4MDI="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOTozNzoxOCAiOzI7MTkxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, ACuzunligi, Bcuzunligi, kupaytmasi" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <assign variable="ACuzunligi" expression="C-A"/>
+            <assign variable="Bcuzunligi" expression="B-C"/>
+            <assign variable="kupaytmasi" expression="ACuzunligi*BCuzunligi"/>
+            <output expression="ACuzunligi" newline="True"/>
+            <output expression="BCuzunligi" newline="True"/>
+            <output expression="kupaytmasi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

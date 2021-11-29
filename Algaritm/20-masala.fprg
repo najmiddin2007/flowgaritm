@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-19 10:57:37 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOTo0Mzo0MyAiOzE4MDU="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE5OyIxMDo1NzozNyAiOzI7MTkxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="masofa, x1, x2, y2, y1" type="Real" array="False" size=""/>
+            <input variable="x1"/>
+            <input variable="y1"/>
+            <input variable="x2"/>
+            <input variable="y2"/>
+            <assign variable="masofa" expression="sqrt(((x2-x1)^2)+((y2-y1)^2))"/>
+            <output expression="masofa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

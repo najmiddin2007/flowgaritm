@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-19 02:34:08 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE5OyIwMjoyOTo1OCAiOzE4MDk="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE5OyIwMjozMjo0OSAiOzM7M0Q7SjdSRlNDNjsyMDIxLTA5LTE5OyIwMjoyODoxMCAiOzM4LW1hc2FsYS5mcHJnOzUwNzk="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE5OyIwMjozNDowOCAiOzE7MTkwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a1, b1, c1, a2, b2, c2" type="Real" array="False" size=""/>
+            <input variable="a1"/>
+            <input variable="b1"/>
+            <input variable="c1"/>
+            <input variable="a2"/>
+            <input variable="b2"/>
+            <input variable="c2"/>
+            <assign variable="c1" expression="a1*x"/>
+        </body>
+    </function>
+</flowgorithm>

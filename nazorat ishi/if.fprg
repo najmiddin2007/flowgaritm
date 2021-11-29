@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-26 11:20:06 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI2OyIwOToyNDowNyAiOzE4MDM="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI2OyIxMToyMDowNiAiOzQ7MTkwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <if expression="x&lt;=0">
+                <then>
+                    <output expression="-x" newline="True"/>
+                </then>
+                <else>
+                    <if expression="0&lt;x and x&lt;2">
+                        <then>
+                            <output expression="x^2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="4" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

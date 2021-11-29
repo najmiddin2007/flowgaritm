@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-24 04:20:47 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIxMDozMTozNCAiOzE3OTQ="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI0OyIwNDoyMDo0NyAiOzI7MTkwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Real" array="False" size=""/>
+            <input variable="x"/>
+            <assign variable="y" expression="(3*(x^6))-(6*(x^3))-7"/>
+            <output expression="y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

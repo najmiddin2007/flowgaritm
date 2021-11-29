@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-02 04:54:30 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI1OyIwMTozODoxMCAiOzE3OTM="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTEwLTAyOyIwNDo1NDozMCAiOzI7MTg5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, x1, y1" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <if expression="x&lt;0 and y&lt;0">
+                <then>
+                    <output expression="1" newline="True"/>
+                    <if expression="x&lt;0 and y&lt;0">
+                        <then>
+                            <output expression="3" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <if expression="x&lt;0 and y&gt;0">
+                        <then>
+                            <output expression="2" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="x&gt;0 and y&lt;0">
+                        <then>
+                            <output expression="4" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

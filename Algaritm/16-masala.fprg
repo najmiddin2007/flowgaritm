@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-18 09:31:15 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOToyOToyNiAiOzE4MTA="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOTozMToxNSAiOzE7MTkwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X1, X2, masofa" type="Real" array="False" size=""/>
+            <input variable="X1"/>
+            <input variable="X2"/>
+            <assign variable="masofa" expression="X2-X1"/>
+            <output expression="masofa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

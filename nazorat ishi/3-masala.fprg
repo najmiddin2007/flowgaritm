@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-26 11:12:18 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI2OyIxMTowODoyMSAiOzE3OTQ="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTI2OyIxMToxMjoxOCAiOzE7MTkwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, x1, y1" type="Integer" array="False" size=""/>
+            <declare name="b" type="Boolean" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <input variable="x1"/>
+            <input variable="y1"/>
+            <assign variable="b" expression="x=x1 and y=y1 or&#13;&#10;abs(x-x1)==abs(y-y1)"/>
+            <output expression="b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

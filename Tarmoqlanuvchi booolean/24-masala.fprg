@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-02 04:57:32 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTEwLTAyOyIwNDo1NjozOCAiOzE3OTM="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTEwLTAyOyIwNDo1NzozMiAiOzE7MTg5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <if expression="x&gt;0">
+                <then>
+                    <output expression="2sin" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x&lt;=0">
+                        <then>
+                            <output expression="6-x" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

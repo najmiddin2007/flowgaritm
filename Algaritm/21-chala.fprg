@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-18 10:07:55 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIwOTo1MDoxNiAiOzE4MDM="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTE4OyIxMDowNzo1NSAiOzE7MTkwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x1, x2, x3, y1, y2, y3, a, b, c, pe, p, s" type="Real" array="False" size=""/>
+            <input variable="x1"/>
+            <input variable="y1"/>
+            <input variable="x2"/>
+            <input variable="y2"/>
+            <input variable="x3"/>
+            <input variable="y3"/>
+            <assign variable="a" expression="(sqrt*((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)))"/>
+            <assign variable="b" expression="sqrt*((x3-x2)*(x3-x2))+((y3-y2)*(y3-y2))"/>
+            <assign variable="c" expression="(sqrt*((x3-x1)*(x3-x1))+((y3-y1)*(y3-y1)))"/>
+            <assign variable="p" expression="a+b+c"/>
+            <assign variable="yp" expression="p/2"/>
+            <output expression="s=(sqrt*(yp*(yp-a)*(yp-b)*(yp-c))" newline="True"/>
+            <output expression="" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

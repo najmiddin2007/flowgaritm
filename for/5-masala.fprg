@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="3D"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-23 06:06:56 "/>
+        <attribute name="created" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTIzOyIwNTo1NjoxNyAiOzE4MDI="/>
+        <attribute name="edited" value="M0Q7SjdSRlNDNjsyMDIxLTA5LTIzOyIwNjowNjo1NiAiOzE7MTkwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="a" expression="a/10"/>
+            <for variable="c" start="1" end="10" direction="inc" step="1">
+                <output expression="a*c" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
